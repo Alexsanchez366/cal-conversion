@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./dato.css">
+</head>
+<body>
+ 
+<div>
+    <form action="funcionDato.php" method="post">
+        <label for="megabyte">Megabytes:</label>
+        <input type="text" id="megabyte" name="megabyte" required>
+        <br><br>
+        <label for="unit">Convertir a:</label>
+        <select id="unit" name="unit">
+            <option value="gigabyte">Gigabyte</option>
+            <option value="terabyte">Terabyte</option>
+            <option value="petabyte">Petabyte</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Convertir"  data-custom="mi-input">
+    </form>
+    </div>
+</body>
+</html>

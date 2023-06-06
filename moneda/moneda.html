@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./moneda.css">
+</head>
+
+<body>
+
+
+<div class="div-calc">
+  <form action="funcionalidad.php" method="post">
+    <p>Ingrese la cantidad de dólares a convertir: </p>
+    <input type="text" name="amount" placeholder="Cantidad" required>
+
+    <p>Seleccione la moneda que desea convertir</p>
+    <select name="target_currency" class="form-select" aria-label="default select example">
+    <option selected>Seleccione la moneda</option>
+    <option value="EUR">Euro</option>
+    <option value="MXN">Peso Mexicano</option>
+    <option value="JPY">Yenes</option>
+  </select>
+    <br> <br>
+
+    <button type="submit">convertir</button>
+
+  </form>
+
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./masa.css">
+</head>
+<body>
+  <div>
+  <form action="funcionMasa.php" method="post">
+    <label for="valor">Ingrese el valor en kilos:</label>
+    <input type="text" name="valor" id="valor" required>
+    <br><br>
+    <label for="conversion">Seleccione la conversion:</label>
+    <select name="conversion" id="conversion" required>
+      <option value="kilosToLibras">Kilos a Libras</option>
+      <option value="kilosToGramos">Kilos a Gramos</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Convertir" data-custom="mi-input">
+  </form>
+  </div>
+
+</body>
+</html>

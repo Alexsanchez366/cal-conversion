@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="longitud.css">
+</head>
+<body>
+
+  <div>
+  <form method="POST" action="funcionLongitud.php">
+    <label for="valor">Valor:</label>
+    <input type="text" name="valor" id="valor">
+    <br>
+    <label for="unidad">Unidad:</label>
+    <select name="unidad" id="unidad">
+      <option value="mm_cm">Milimetros a Centimetros</option>
+      <option value="cm_mm">Centimetros a Milimetros</option>
+    
+    </select>
+    <br>
+    <input type="submit" value="Convertir" data-custom="mi-input" />
+  </form>
+  </div>
+</body>
+</html>

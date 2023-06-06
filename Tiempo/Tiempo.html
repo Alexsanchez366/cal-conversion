@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./tiempo.css">
+</head>
+<body>
+   
+    <form action="funcionTiempo.php" method="POST">
+        <label for="horas">Horas:</label>
+        <input type="text" id="horas" name="horas" required>
+
+        <label for="unidad">Convertir a:</label>
+        <select id="unidad" name="unidad">
+            <option value="minutos">Minutos</option>
+            <option value="dias">Dias</option>
+            <option value="semanas">Semanas</option>
+        </select>
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
